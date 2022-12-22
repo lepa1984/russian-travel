@@ -1,0 +1,29 @@
+.header {
+    box-sizing: border-box;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 28px 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    width: 176px;
+}
+
+.header__lang-link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #ffffff;
+    text-decoration: none;
+}
+.header__lang-link:not(:last-child) {
+    margin-right: 18px;
+}
+.header__lang-link-active {
+    text-decoration: underline;
+}
