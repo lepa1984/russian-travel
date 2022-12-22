@@ -1,7 +1,6 @@
 .intro {
     padding-top: 92px;
 }
-
 .intro__title {
     font-weight: 900;
     font-size: 54px;
@@ -9,7 +8,6 @@
     margin: 0 0 40px 0;
     color: #ffffff;
 }
-
 .intro__text {
     font-weight: 400;
     font-size: 16px;
@@ -18,12 +16,10 @@
     color: #ffffff;
     max-width: 690px;
 }
-
 .intro__list {
     margin: 0;
     padding: 0;
 }
-
 .intro__item {
     font-weight: 700;
     font-size: 12px;
@@ -31,11 +27,9 @@
     list-style: none;
     color: #ffffff;
 }
-
 .intro__item-number {
     font-weight: 400;
 }
-
 .intro__item-uppercase {
     text-transform: uppercase;
 }

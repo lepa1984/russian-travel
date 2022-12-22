@@ -1,9 +1,6 @@
 .lead {
     padding-top: 56px;
 }
-.lead__wrapper {
-}
-
 .lead__title {
     font-weight: 900;
     font-size: 96px;
@@ -13,7 +10,6 @@
 
     color: #ffffff;
 }
-
 .lead__subtitle {
     font-weight: 400;
     font-size: 30px;
@@ -23,7 +19,6 @@
     max-width: 550px;
     color: #ffffff;
 }
-
 .lead__images {
     width: 100%;
     margin-bottom: 8px;
