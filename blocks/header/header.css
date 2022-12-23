@@ -1,6 +1,3 @@
-@import url(__lang-link/__lang-link.css);
-@import url(__lang-link/-active/-active.css);
-@import url(__logo/__logo.css);
 .header {
     box-sizing: border-box;
     max-width: 1280px;

@@ -1,7 +1,3 @@
-@import url(__caption/__caption.css);
-@import url(__images/__images.css);
-@import url(__subtitle/__subtitle.css);
-@import url(__title/__title.css);
 .lead {
     padding-top: 56px;
 }
