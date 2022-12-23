@@ -1,35 +1,19 @@
+@import url(__item-number/__item-number.css);
+@import url(__item-uppercase/__item-uppercase.css);
+@import url(__item/__item.css);
+@import url(__list/__list.css);
+@import url(__text/__text.css);
+@import url(__title/__title.css);
 .intro {
     padding-top: 92px;
 }
-.intro__title {
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    margin: 0 0 40px 0;
-    color: #ffffff;
+@media (max-width: 1023px) {
+    .intro {
+        padding-top: 88px;
+    }
 }
-.intro__text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
-    margin: 0 0 33px 0;
-    color: #ffffff;
-    max-width: 690px;
-}
-.intro__list {
-    margin: 0;
-    padding: 0;
-}
-.intro__item {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    list-style: none;
-    color: #ffffff;
-}
-.intro__item-number {
-    font-weight: 400;
-}
-.intro__item-uppercase {
-    text-transform: uppercase;
+@media (max-width: 767px) {
+    .intro {
+        padding-top: 64px;
+    }
 }

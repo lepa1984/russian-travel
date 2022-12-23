@@ -1,0 +1,15 @@
+@import url(__image/__image.css);
+@import url(__inner/__inner.css);
+@import url(__link/__link.css);
+@import url(__paragraph/__paragraph.css);
+@import url(__title/__title.css);
+@import url(__url-heading/__url-heading.css);
+@import url(__website/__website.css);
+.place:not(:last-child) {
+    margin-bottom: 80px;
+}
+@media (max-width: 1023px) {
+    .place:not(:last-child) {
+        margin-bottom: 73px;
+    }
+}

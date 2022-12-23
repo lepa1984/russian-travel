@@ -1,34 +1,12 @@
+@import url(__caption/__caption.css);
+@import url(__images/__images.css);
+@import url(__subtitle/__subtitle.css);
+@import url(__title/__title.css);
 .lead {
     padding-top: 56px;
 }
-.lead__title {
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    margin: 0 0 32px 0;
-    text-align: center;
-
-    color: #ffffff;
-}
-.lead__subtitle {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    margin: 0 auto 64px;
-    text-align: center;
-    max-width: 550px;
-    color: #ffffff;
-}
-.lead__images {
-    width: 100%;
-    margin-bottom: 8px;
-}
-.lead__caption {
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin: 0;
-    color: #ffffff;
+@media (max-width: 1023px) {
+    .lead {
+        padding-top: 48px;
+    }
 }
