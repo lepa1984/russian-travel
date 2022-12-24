@@ -6,3 +6,8 @@
     color: #ffffff;
     max-width: 690px;
 }
+@media (max-width: 769px) {
+    .intro__text {
+        max-width: 100%;
+    }
+}

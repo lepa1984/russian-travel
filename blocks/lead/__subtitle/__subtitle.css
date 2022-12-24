@@ -7,12 +7,12 @@
     max-width: 550px;
     color: #ffffff;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1025px) {
     .lead__subtitle {
         margin-bottom: 56px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     .lead__subtitle {
         margin-bottom: 40px;
         font-size: 16px;
