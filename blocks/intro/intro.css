@@ -4,20 +4,16 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-@media (max-width: 1025px) {
-    .intro {
-        padding-top: 88px;
-    }
-}
 @media (max-width: 769px) {
     .intro {
-        padding-top: 64px;
+        padding-top: 88px;
         padding-left: 24px;
         padding-right: 24px;
     }
 }
 @media (max-width: 600px) {
     .intro {
+        padding-top: 64px;
         padding-left: 16px;
         padding-right: 16px;
     }

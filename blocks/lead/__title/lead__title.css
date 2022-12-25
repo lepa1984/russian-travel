@@ -7,7 +7,7 @@
     color: #ffffff;
     max-width: 720px;
 }
-@media (max-width: 769px) {
+@media (max-width: 600px) {
     .lead__title {
         font-size: 40px;
         line-height: 44px;

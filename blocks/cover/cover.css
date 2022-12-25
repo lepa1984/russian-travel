@@ -4,7 +4,14 @@
 }
 @media (max-width: 1025px) {
     .cover {
-        padding: 90px 0 88px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 769px) {
+    .cover {
+        padding-top: 90px;
+        padding-bottom: 88px;
     }
 }
 
