@@ -7,13 +7,12 @@
 
 @media (max-width: 1025px) {
     .place {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.97fr 1fr;
         column-gap: 32px;
     }
 }
 @media (max-width: 769px) {
     .place {
-        grid-template-columns: 0.97fr 1fr;
         column-gap: 28px;
     }
 }
